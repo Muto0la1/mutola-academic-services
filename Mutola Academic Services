@@ -224,7 +224,7 @@ footer {
     O envio só será concluído depois de confirmares no teu
     aplicativo de e-mail.</p>
 
-    <form action="mailto:TEUEMAIL@EXEMPLO.COM"
+    <form action="mailto: mutolahelder69@gmail.com"
     method="post" enctype="text/plain">
 
         <label>Nome:</label>
