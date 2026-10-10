@@ -1,0 +1,268 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mutola Academic Services</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #263238;
+    line-height: 1.6;
+}
+header {
+    background: #092b50;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+header h1 {
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+header p {
+    margin-top: 5px;
+}
+nav {
+    background: #124a7b;
+    padding: 12px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+section {
+    padding: 30px 18px;
+    max-width: 1000px;
+    margin: auto;
+}
+h2 {
+    color: #092b50;
+}
+.hero {
+    text-align: center;
+    background: white;
+    padding: 35px 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 950px;
+}
+.button {
+    display: inline-block;
+    background: #087f5b;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #00000012;
+}
+.price {
+    color: #087f5b;
+    font-weight: bold;
+}
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+button {
+    background: #092b50;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+footer {
+    background: #092b50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mutola Academic Services</h1>
+    <p>Soluções académicas e digitais ao teu alcance!</p>
+    <p>Qualidade • Responsabilidade • Confiança</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#precos">Preços</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="hero" id="inicio">
+    <h2>Bem-vindo à Mutola Academic Services!</h2>
+    <p>Precisas de organizar documentos, preparar apresentações
+    ou analisar dados? Estamos aqui para ajudar.</p>
+    <p>Serviços académicos e digitais para estudantes,
+    professores e profissionais.</p>
+    <a class="button" href="#contacto">Solicitar um serviço</a>
+</div>
+
+<section id="servicos">
+    <h2>Os nossos serviços</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>📄 Documentos</h3>
+            <p>Digitação, formatação, revisão e organização
+            de documentos Word e PDF.</p>
+        </div>
+
+        <div class="card">
+            <h3>📊 Excel e dados</h3>
+            <p>Tabelas, fórmulas, gráficos e análise de dados.</p>
+        </div>
+
+        <div class="card">
+            <h3>📽️ Apresentações</h3>
+            <p>Preparação e organização de apresentações
+            profissionais em PowerPoint.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎓 Apoio académico</h3>
+            <p>Apoio na estruturação, revisão e formatação
+            de trabalhos científicos e monografias.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧮 Explicação de exercícios</h3>
+            <p>Resolução explicada e apoio à aprendizagem
+            de Física, Matemática e Química.</p>
+        </div>
+
+        <div class="card">
+            <h3>💼 CV e candidaturas</h3>
+            <p>Elaboração de currículos e cartas de candidatura.</p>
+        </div>
+    </div>
+</section>
+
+<section id="precos">
+    <h2>Preços indicativos</h2>
+    <p>Os preços abaixo são valores iniciais de referência.
+    O custo final depende do serviço e da complexidade.</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Digitação</h3>
+            <p class="price">Desde 30 MT/página</p>
+        </div>
+
+        <div class="card">
+            <h3>Formatação</h3>
+            <p class="price">Desde 100 MT</p>
+        </div>
+
+        <div class="card">
+            <h3>PowerPoint</h3>
+            <p class="price">Desde 200 MT</p>
+        </div>
+
+        <div class="card">
+            <h3>Excel e gráficos</h3>
+            <p class="price">Desde 150 MT</p>
+        </div>
+
+        <div class="card">
+            <h3>Currículo (CV)</h3>
+            <p class="price">Desde 100 MT</p>
+        </div>
+
+        <div class="card">
+            <h3>Trabalhos complexos</h3>
+            <p class="price">Preço sob consulta</p>
+        </div>
+    </div>
+
+    <p><small>Os preços são indicativos e podem ser ajustados
+    conforme o trabalho solicitado.</small></p>
+</section>
+
+<section id="contacto">
+    <h2>Solicitar um serviço</h2>
+    <p>Preenche os teus dados e prepara o pedido por e-mail.
+    O envio só será concluído depois de confirmares no teu
+    aplicativo de e-mail.</p>
+
+    <form action="mailto:TEUEMAIL@EXEMPLO.COM"
+    method="post" enctype="text/plain">
+
+        <label>Nome:</label>
+        <input type="text" name="Nome" required>
+
+        <label>Contacto telefónico:</label>
+        <input type="tel" name="Telefone" required>
+
+        <label>Serviço pretendido:</label>
+        <select name="Servico" required>
+            <option value="">Escolhe um serviço</option>
+            <option>Digitação e formatação</option>
+            <option>PDF</option>
+            <option>Excel e análise de dados</option>
+            <option>PowerPoint</option>
+            <option>Trabalho científico ou monografia</option>
+            <option>Exercícios de Física</option>
+            <option>Exercícios de Matemática</option>
+            <option>Exercícios de Química</option>
+            <option>CV ou carta de candidatura</option>
+            <option>Outro serviço</option>
+        </select>
+
+        <label>Descrição do pedido:</label>
+        <textarea name="Descricao" rows="5"
+        placeholder="Explica o que precisas..." required></textarea>
+
+        <button type="submit">Preparar pedido por e-mail</button>
+    </form>
+
+    <p><strong>WhatsApp:</strong> Contacto a adicionar brevemente.</p>
+</section>
+
+<footer>
+    <p><strong>Mutola Academic Services</strong></p>
+    <p>Soluções académicas e digitais ao teu alcance!</p>
+    <p>© 2026 — Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
